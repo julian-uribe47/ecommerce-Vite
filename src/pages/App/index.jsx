@@ -12,17 +12,17 @@ import './App.css'
 
 const AppRoutes = () => {
   let routes = useRoutes([
-    { path: '/', element: <Home /> },
-    { path: '/men', element: <Home /> },
-    { path: '/women', element: <Home /> },
-    { path: '/jewelery', element: <Home /> },
-    { path: '/electronics', element: <Home /> },
-    { path: '/my-account', element: <MyAccount /> },
-    { path: '/my-order', element: <MyOrder /> },
+    { path: '/ecommerce-Vite/', element: <Home /> },
+    { path: '/ecommerce-Vite/men', element: <Home /> },
+    { path: '/ecommerce-Vite/women', element: <Home /> },
+    { path: '/ecommerce-Vite/jewelery', element: <Home /> },
+    { path: '/ecommerce-Vite/electronics', element: <Home /> },
+    { path: '/ecommerce-Vite/my-account', element: <MyAccount /> },
+    { path: '/ecommerce-Vite/my-order', element: <MyOrder /> },
     { path: 'my-orders', element: <MyOrders /> },
     { path: 'my-orders/last', element: <MyOrder /> },
     { path: 'my-orders/:id', element: <MyOrder /> },
-    { path: '/*', element: <NotFound /> },
+    { path: '/ecommerce-Vite/*', element: <NotFound /> },
     { path: 'sign-in', element: <SignIn /> },
   ])
   return routes;
