@@ -64,7 +64,7 @@ const CheckoutSideMenu = () => {
                     <span className=' font-medium text-xl'>Total:</span>
                     <span className=' font-semibold text-2xl'>${totalPrice(context.cartProducts)}</span>
                 </p>
-                <Link to='/my-orders/last'>
+                <Link to='/ecommerce-Vite/my-orders/last'>
                 <button className=' w-full bg-black py-3 text-white rounded-lg mt-4 mb-6'
                 onClick={() => deleteCheckout()}>Checkout</button>
                 </Link>
