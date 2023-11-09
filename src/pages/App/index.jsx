@@ -19,11 +19,11 @@ const AppRoutes = () => {
     { path: '/ecommerce-Vite/electronics', element: <Home /> },
     { path: '/ecommerce-Vite/my-account', element: <MyAccount /> },
     { path: '/ecommerce-Vite/my-order', element: <MyOrder /> },
-    { path: 'my-orders', element: <MyOrders /> },
-    { path: 'my-orders/last', element: <MyOrder /> },
-    { path: 'my-orders/:id', element: <MyOrder /> },
+    { path: '/ecommerce-Vite/my-orders', element: <MyOrders /> },
+    { path: '/ecommerce-Vite/my-orders/last', element: <MyOrder /> },
+    { path: '/ecommerce-Vite/my-orders/:id', element: <MyOrder /> },
     { path: '/ecommerce-Vite/*', element: <NotFound /> },
-    { path: 'sign-in', element: <SignIn /> },
+    { path: '/ecommerce-Vite/sign-in', element: <SignIn /> },
   ])
   return routes;
 }

@@ -11,14 +11,14 @@ const Navbar = () => {
         py-5 px-6 text-sm font-medium ">
             <ul className=" flex items-center gap-3 ">
                 <li className=" font-bold text-lg ">
-                    <NavLink to='/'
+                    <NavLink to='/ecommerce-Vite/'
                     onClick={() => context.setSearchByCategory()}>
                         Shopi
                     </NavLink>
                 </li>
                 <li>
                     <NavLink 
-                    to='/'
+                    to='/ecommerce-Vite'
                     onClick={() => context.setSearchByCategory()}
                     className={({ isActive }) => 
                         isActive ? activeStyle : undefined
@@ -29,7 +29,7 @@ const Navbar = () => {
                 </li>
                 <li>
                     <NavLink 
-                    to='/men'
+                    to='/ecommerce-Vite/men'
                     onClick={() => context.setSearchByCategory('Men')}
                     className={({ isActive }) => 
                         isActive ? activeStyle : undefined
@@ -39,7 +39,7 @@ const Navbar = () => {
                 </li>
                 <li>
                     <NavLink 
-                    to='/women'
+                    to='/ecommerce-Vite/women'
                     onClick={() => context.setSearchByCategory('women')}
                     className={({ isActive }) => 
                         isActive ? activeStyle : undefined
@@ -49,7 +49,7 @@ const Navbar = () => {
                 </li>
                 <li>
                     <NavLink 
-                    to='/jewelery'
+                    to='/ecommerce-Vite/jewelery'
                     onClick={() => context.setSearchByCategory('jewelery')}
                     className={({ isActive }) => 
                         isActive ? activeStyle : undefined
@@ -59,7 +59,7 @@ const Navbar = () => {
                 </li>
                 <li>
                     <NavLink 
-                    to='/electronics'
+                    to='/ecommerce-Vite/electronics'
                     onClick={() => context.setSearchByCategory('electronics')}
                     className={({ isActive }) => 
                         isActive ? activeStyle : undefined
@@ -75,7 +75,7 @@ const Navbar = () => {
                 </li>
                 <li>
                     <NavLink 
-                    to='/my-orders'
+                    to='/ecommerce-Vite/my-orders'
                     className={({ isActive }) => 
                         isActive ? activeStyle : undefined
                     }>
@@ -84,7 +84,7 @@ const Navbar = () => {
                 </li>
                 <li>
                     <NavLink 
-                    to='/my-account'
+                    to='/ecommerce-Vite/my-account'
                     className={({ isActive }) => 
                         isActive ? activeStyle : undefined
                     }>
@@ -93,7 +93,7 @@ const Navbar = () => {
                 </li>
                 <li>
                     <NavLink 
-                    to='/sign-in'
+                    to='/ecommerce-Vite/sign-in'
                     className={({ isActive }) => 
                         isActive ? activeStyle : undefined
                     }>
